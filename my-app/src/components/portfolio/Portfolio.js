@@ -12,7 +12,7 @@ export default function Project() {
   // We return all the JSX inside a parent element with a className of "container".
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h1>Projects</h1>
       <CardGroup>
         <Card>
           <Card.Img variant="top" src={FeedMe} />
