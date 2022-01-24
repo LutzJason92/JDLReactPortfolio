@@ -5,19 +5,16 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Navigation from "./components/navigation/Navigation";
-import Portfolio from "./components/portfolio/Portfolio";
+
 import AboutMe from "./components/aboutMe/AboutMe";
+import PortfolioContainer from "./components/PortfolioContainer";
 // import SkillsGraphs from "./components/skillsBarGraph/skillsBarGraph";
 
 function App() {
   return (
     <>
-      <Navigation />
-      <Header />
-      <AboutMe />
-      {/* <SkillsGraphs /> */}
-      <Portfolio />
-      <Contact />
+      <PortfolioContainer />
+
       <Footer />
     </>
   );
