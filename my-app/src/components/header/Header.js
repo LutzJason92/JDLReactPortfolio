@@ -8,7 +8,7 @@ export default function Header() {
   // We return all the JSX inside a parent element with a className of "container".
   return (
     <>
-      <div className="header">
+      <div className="header header-wrapper">
         <div className="h-left">
           <div className="h-left-wrapper">
             <h2 className="h-intro">Hello, my name is</h2>
@@ -33,7 +33,13 @@ export default function Header() {
         </div>
         <div className="h-logo-wrapper">
           <div>
-            <img src={Logo} alt="Logo" className="logo-img rotate"></img>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1mYztpHk-GrNJzgNHnTpWKesd8cpDRkce/view?usp=sharing"
+            >
+              <img src={Logo} alt="Logo" className="logo-img rotate"></img>
+            </a>
           </div>
         </div>
 
