@@ -10,9 +10,11 @@ export default function Footer() {
   // We return all the JSX inside a parent element with a className of "container".
   return (
     <>
-      <Navbar bg="light">
+      <Navbar bg="light" className="fixed-bottom">
         <Container>
-          <Navbar.Brand href="#home">Jason Daniel Lutz Portfolio</Navbar.Brand>
+          <Navbar.Brand href="#header">
+            Jason Daniel Lutz Portfolio
+          </Navbar.Brand>
         </Container>
       </Navbar>
     </>
