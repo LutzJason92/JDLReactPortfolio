@@ -1,20 +1,25 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Navigation from "./components/Navigation";
-import Project from "./components/Project";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Navigation from "./components/navigation/Navigation";
+import Portfolio from "./components/portfolio/Portfolio";
+import AboutMe from "./components/aboutMe/AboutMe";
+// import SkillsGraphs from "./components/skillsBarGraph/skillsBarGraph";
 
 function App() {
   return (
-    <div>
+    <>
       <Navigation />
       <Header />
-      <Project />
+      <AboutMe />
+      {/* <SkillsGraphs /> */}
+      <Portfolio />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 
