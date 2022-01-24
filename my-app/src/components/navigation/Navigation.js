@@ -42,19 +42,60 @@ export default function Navigation({ currentPage, handlePageChange }) {
             >
               Projects
             </Nav.Link>
+            <Nav.Link
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </Nav.Link>
             <NavDropdown title="Employer Documents" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Resume</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Brand Statement
+              <NavDropdown.Item href="#action/3.1">
+                {/* -----------------------resume link---------------------- */}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/1emT65GGJ22YBiWxoY_aoXcR4zwu1ofcu/view?usp=sharing"
+                >
+                  Resume
+                </a>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
-                Mission Statement
+              <NavDropdown.Item href="#action/3.2">
+                {/* -----------------------Brand Statement link---------------------- */}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/1mkTKHy2cBYhzIJ5k2n2KcZKARYikBGpN/view?usp=sharing"
+                >
+                  Brand Statement
+                </a>
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Connect with Me" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/4.1">LinkedIn</NavDropdown.Item>
+              {/* -----------------------Linked In link---------------------- */}
+              <NavDropdown.Item href="#action/4.1">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/jason-lutz-a0710a191/"
+                >
+                  LinkedIn
+                </a>
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/4.2">GitHub</NavDropdown.Item>
+              {/* -----------------------Github link---------------------- */}
+              <NavDropdown.Item href="#action/4.2">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/LutzJason92"
+                >
+                  GitHub
+                </a>
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
