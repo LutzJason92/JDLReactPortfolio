@@ -6,6 +6,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import FeedMe from "../../assets/images/FeedMeApp.png";
 import MileHi from "../../assets/images/milehi.png";
 import DayPlanner from "../../assets/images/DayPlanner.png";
+import ORMApp from "../../assets/images/ORM_coverphoto.png";
+import CMSApp from "../../assets/images/JDLCMSAppscreenshot.png";
+import REGEXgist from "../../assets/images/REGEXgist.png";
 
 const Projects = [
   {
@@ -33,11 +36,31 @@ const Projects = [
     deployedApp_Link: "https://lutzjason92.github.io/JDLDayPlanner/",
   },
   {
-    title: "",
-    image: "",
-    description: "",
-    gitHubRepo_Link: "",
-    deployedApp_Link: "",
+    title: "JDL ORM Application",
+    image: ORMApp,
+    description:
+      "Developed an Express.js API and used Sequalize to interact with the database a perform CRUD Operations. There is no deployed application as this is entirely backend, but click the link to view a walk through video.",
+    gitHubRepo_Link: "https://github.com/LutzJason92/JDLORMApp",
+    deployedApp_Link:
+      "https://drive.google.com/file/d/1DMnbiOO06LtHhcSrylbslMjIHtP4RiU8/view",
+  },
+  {
+    title: "Content Managment System",
+    image: CMSApp,
+    description:
+      "This CMS application demonstates my ability to perform CRUD operations from the Terminal. There is no deployed application as this is entirely backend, but click the link to view a walk through video.",
+    gitHubRepo_Link: "https://github.com/LutzJason92/JDLCMSApp",
+    deployedApp_Link:
+      "https://drive.google.com/file/d/11ma49Kca7Nrx3BbzvxeteajXf-dGwxwT/view",
+  },
+  {
+    title: "REGEX Tutorial",
+    image: REGEXgist,
+    description:
+      "This gist is a tutorial about one of my favorite technologies, Regular Expressions, also known as REGEX. This gist walks readers through various components of a REGEX expression used to find URL's",
+    gitHubRepo_Link: "https://github.com/LutzJason92/JDLRegexTutorial",
+    deployedApp_Link:
+      "https://gist.github.com/LutzJason92/1aba37a41f0093e8baf1b46b9d9e1948",
   },
 ];
 
