@@ -15,7 +15,7 @@ const Projects = [
     title: "FeedMe Application",
     image: FeedMe,
     description:
-      "An application thats helps users make one of the hardest decisions we have to make everyday : What to Eat. Users input ingredients they have on hand and a 3rd party API returns the users various recipes that can make using those ingredients.",
+      "An application thats helps users make one of the hardest decisions we have to make everyday : What to Eat. Users input ingredients they have on hand and a 3rd party API returns the users various recipes they can make using those ingredients.",
     gitHubRepo_Link: "https://github.com/KerryEames-Vris/ClassProject1-FeedMe",
     deployedApp_Link: "https://kerryeames-vris.github.io/ClassProject1-FeedMe/",
   },
@@ -31,7 +31,7 @@ const Projects = [
     title: "Day Planner",
     image: DayPlanner,
     description:
-      "A Day Planner that helps users maintain thier Schedule. Events remain persistent via Local Storage and can be updated or deleted upon completion.",
+      "A Day Planner that helps users maintain their Schedule. Events remain persistent via Local Storage and can be updated or deleted upon completion.",
     gitHubRepo_Link: "https://github.com/LutzJason92/JDLDayPlanner",
     deployedApp_Link: "https://lutzjason92.github.io/JDLDayPlanner/",
   },
@@ -39,7 +39,7 @@ const Projects = [
     title: "JDL ORM Application",
     image: ORMApp,
     description:
-      "Developed an Express.js API and used Sequalize to interact with the database a perform CRUD Operations. There is no deployed application as this is entirely backend, but click the link to view a walk through video.",
+      "Developed an Express.js API and used Sequalize to interact with the database and perform CRUD Operations. There is no deployed application as this is entirely backend, but click the link to view a walk-through video.",
     gitHubRepo_Link: "https://github.com/LutzJason92/JDLORMApp",
     deployedApp_Link:
       "https://drive.google.com/file/d/1DMnbiOO06LtHhcSrylbslMjIHtP4RiU8/view",
@@ -48,7 +48,7 @@ const Projects = [
     title: "Content Managment System",
     image: CMSApp,
     description:
-      "This CMS application demonstates my ability to perform CRUD operations from the Terminal. There is no deployed application as this is entirely backend, but click the link to view a walk through video.",
+      "This CMS application demonstrates my ability to perform CRUD operations from the Terminal. There is no deployed application as this is entirely backend, but click the link to view a walk-through video.",
     gitHubRepo_Link: "https://github.com/LutzJason92/JDLCMSApp",
     deployedApp_Link:
       "https://drive.google.com/file/d/11ma49Kca7Nrx3BbzvxeteajXf-dGwxwT/view",
