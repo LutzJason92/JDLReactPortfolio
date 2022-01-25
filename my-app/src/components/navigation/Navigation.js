@@ -16,7 +16,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Header")}
           className={currentPage === "Header" ? "nav-link active" : "nav-link"}
         >
-          Jason Daniel Lutz Portfolio
+          Jason Lutz Portfolio
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
