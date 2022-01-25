@@ -23,7 +23,7 @@ export default function Header() {
                 <div className="h-title-item">Inventor</div>
                 <div className="h-title-item">Dog Dad</div>
                 <div className="h-title-item">Bartender</div>
-                <div className="h-title-item">entrepreneur</div>
+                <div className="h-title-item">Entrepreneur</div>
                 <div className="h-title-item">Dreamer</div>
               </div>
             </div>
