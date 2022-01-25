@@ -23,7 +23,7 @@ const Projects = [
     title: "MileHi",
     image: MileHi,
     description:
-      "MileHi is a Database of Recreational Activites. Users sign in to share events theyre interested in so others can join them and recreate together.",
+      "MileHi is a Database of Recreational Activites. Users sign in to share events they're interested in so others can join them and recreate together.",
     gitHubRepo_Link: "https://github.com/collink91/mile-hi",
     deployedApp_Link: "https://project2-milehi.herokuapp.com",
   },

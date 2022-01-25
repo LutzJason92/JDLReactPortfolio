@@ -18,7 +18,7 @@ export default function AboutMe() {
             experiences, mixing delicious adult beverages, and fabricating
             products or parts from various materials, I decided to shift my
             focus from creating physical assets to digital assets and have begun
-            the thrilling journey of Web Development. Whether its a mean
+            the thrilling journey of Web Development. Whether it's a mean
             martini, a fabricated component, a robust database or a web
             application, you've come to the right place.
           </p>
