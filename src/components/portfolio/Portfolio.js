@@ -102,7 +102,7 @@ export default function Project() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={Projects[0].deployedApp_Link}
+                    href={deployedApp_Link}
                   >
                     <small className="text-muted">
                       View Deployed Application:
