@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./header.css";
+
 import Me from "../../assets/images/headshot.png";
 import Logo from "../../assets/images/logo.png";
 
@@ -12,10 +14,11 @@ export default function Header() {
         <div className="h-left">
           <div className="h-left-wrapper">
             <h2 className="h-intro">Hello, my name is</h2>
-            <h1 className="h-name">Jason Lutz</h1>
+            <h1 className="h-name">Jason Daniel Lutz</h1>
             <div className="h-title">
               <div className="h-title-wrapper">
-                <div className="h-title-item">Full Stack Web Developer</div>
+                <div className="h-title-item">Full Stack </div>
+                <div className="h-title-item">Web Developer</div>
                 <div className="h-title-item">Photographer</div>
                 <div className="h-title-item">Inventor</div>
                 <div className="h-title-item">Dog Dad</div>
@@ -25,9 +28,9 @@ export default function Header() {
               </div>
             </div>
             <div className="h-desc">
-              A Junior Full Stack Web-Developer whos eager to help YOU create
-              responsive, elegant applications using various technologies and
-              languages.
+              A Junior Full Stack Web-Developer who is eager to help YOU create
+              responsive, elegant applications and databases using various
+              technologies and languages.
             </div>
           </div>
         </div>
