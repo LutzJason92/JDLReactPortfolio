@@ -6,4 +6,9 @@
 
 .pro-cards {
   margin: 2rem;
+  border-radius: 15px;
+}
+
+.pro-img {
+  border-radius: 15px;
 }
