@@ -42,20 +42,32 @@ body {
 }
 .h-title-wrapper {
   height: 100%;
-  animation: move 10s ease-in-out infinite alternate;
+  animation: move 20s ease-in-out infinite alternate;
 }
 @keyframes move {
+  12.5% {
+    transform: translateY(-3rem);
+  }
   25% {
-    transform: translateY(-50px);
+    transform: translateY(-6rem);
+  }
+  37.5% {
+    transform: translateY(-9rem);
   }
   50% {
-    transform: translateY(-100px);
+    transform: translateY(-12rem);
+  }
+  62.5% {
+    transform: translateY(-15rem);
   }
   75% {
-    transform: translateY(-150px);
+    transform: translateY(-18rem);
+  }
+  87.5% {
+    transform: translateY(-21rem);
   }
   100% {
-    transform: translateY(-200px);
+    transform: translateY(-24rem);
   }
 }
 
@@ -97,7 +109,9 @@ body {
     position: relative;
   }
   .h-left-wrapper {
+    padding-top: 1.25rem;
     padding-left: 1rem;
+    padding-bottom: 1rem;
     height: auto;
     width: 100%;
     display: flex;
