@@ -50,84 +50,45 @@ export default function Project() {
         <h1>Projects</h1>
         <CardGroup className="pro-cardGroup">
           {/* project1 */}
-          <Card className="pro-cards">
-            <Card.Img variant="top" src={Projects[0].image} />
-            <Card.Body>
-              <Card.Title>{Projects[0].title}</Card.Title>
-              <Card.Text>{Projects[0].description}</Card.Text>
-            </Card.Body>
-            <Card.Footer>
-              <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={Projects[0].gitHubRepo_Link}
-                >
-                  <small className="text-muted">View GitHub Repository:</small>
-                </a>
-              </div>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={Projects[0].deployedApp_Link}
-              >
-                <small className="text-muted">View Deployed Application:</small>
-              </a>
-            </Card.Footer>
-          </Card>
-          {/* project 2 */}
-          <Card className="pro-cards">
-            <Card.Img variant="top" src={Projects[1].image} />
-            <Card.Body>
-              <Card.Title>{Projects[1].title}</Card.Title>
-              <Card.Text>{Projects[1].description}</Card.Text>
-            </Card.Body>
-            <Card.Footer>
-              <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={Projects[1].gitHubRepo_Link}
-                >
-                  <small className="text-muted">View GitHub Repository:</small>
-                </a>
-              </div>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={Projects[1].deployedApp_Link}
-              >
-                <small className="text-muted">View Deployed Application:</small>
-              </a>
-            </Card.Footer>
-          </Card>
-          {/* project 3 */}
-          <Card className="pro-cards">
-            <Card.Img variant="top" src={Projects[2].image} />
-            <Card.Body>
-              <Card.Title>{Projects[2].title}</Card.Title>
-              <Card.Text>{Projects[2].description}</Card.Text>
-            </Card.Body>
-            <Card.Footer>
-              <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={Projects[2].gitHubRepo_Link}
-                >
-                  <small className="text-muted">View GitHub Repository:</small>
-                </a>
-              </div>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={Projects[2].deployedApp_Link}
-              >
-                <small className="text-muted">View Deployed Application:</small>
-              </a>
-            </Card.Footer>
-          </Card>
-          {/* future projects here */}
+          {Projects.map(
+            ({
+              image,
+              title,
+              description,
+              gitHubRepo_Link,
+              deployedApp_Link,
+            }) => (
+              <Card className="pro-cards">
+                <Card.Img variant="top" src={image} className="pro-img" />
+                <Card.Body>
+                  <Card.Title>{title}</Card.Title>
+                  <Card.Text>{description}</Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <div>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={gitHubRepo_Link}
+                    >
+                      <small className="text-muted">
+                        View GitHub Repository:
+                      </small>
+                    </a>
+                  </div>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={Projects[0].deployedApp_Link}
+                  >
+                    <small className="text-muted">
+                      View Deployed Application:
+                    </small>
+                  </a>
+                </Card.Footer>
+              </Card>
+            )
+          )}
         </CardGroup>
       </div>
     </div>
