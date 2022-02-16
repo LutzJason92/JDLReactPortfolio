@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FeedMe from "../../assets/images/FeedMeApp.png";
+import GivingTree from "../../assets/images/GivingTree.pmg";
 import MileHi from "../../assets/images/milehi.png";
 import DayPlanner from "../../assets/images/DayPlanner.png";
 import ORMApp from "../../assets/images/ORM_coverphoto.png";
@@ -11,6 +12,14 @@ import CMSApp from "../../assets/images/JDLCMSAppscreenshot.png";
 import REGEXgist from "../../assets/images/REGEXgist.png";
 
 const Projects = [
+  {
+    title: "GivingTree Application",
+    image: FeedMe,
+    description:
+      "Giving Tree helps users find IRS approve charities, making it easier to donate, and reap the tax beneftits of your contributions.",
+    gitHubRepo_Link: "https://github.com/elliscj/GivingTree",
+    deployedApp_Link: "https://awesome-giving-tree.herokuapp.com/",
+  },
   {
     title: "FeedMe Application",
     image: FeedMe,
