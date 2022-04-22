@@ -13,9 +13,9 @@ export default function AboutMe() {
         <div>
           <h2>Summary</h2>
           <p className="ab-content">
-            I am currently enrolled in a Full-Stack Web Development Bootcamp at
-            the University of Denver. After years of facilitating guest
-            experiences, mixing delicious adult beverages, and fabricating
+            I graduated the Full-Stack Web Development Bootcamp at the
+            University of Denver in Spring of 2022. After years of facilitating
+            guest experiences, mixing delicious adult beverages, and fabricating
             products or parts from various materials, I decided to shift my
             focus from creating physical assets to digital assets and have begun
             the thrilling journey of Web Development. Whether it's a mean
