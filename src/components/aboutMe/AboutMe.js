@@ -13,14 +13,12 @@ export default function AboutMe() {
         <div>
           <h2>Summary</h2>
           <p className="ab-content">
-            I graduated the Full-Stack Web Development Bootcamp at the
-            University of Denver in Spring of 2022. After years of facilitating
-            guest experiences, mixing delicious adult beverages, and fabricating
-            products or parts from various materials, I decided to shift my
-            focus from creating physical assets to digital assets and have begun
-            the thrilling journey of Web Development. Whether it's a mean
-            martini, a fabricated component, a robust database or a web
-            application, you've come to the right place.
+            I am a highly motivated multi-disciplinary professional with
+            experience in hospitality, product design, manufacturing, and web
+            development. I am eager to use my skills to create unique
+            user-centered experiences and designs. I am confident that I can
+            contribute to your team and help you achieve your goals. Please
+            contact me to discuss your upcoming projects.
           </p>
         </div>
         <div>
